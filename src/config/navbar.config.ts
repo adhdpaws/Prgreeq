@@ -66,7 +66,7 @@ export const navbarConfig = {
 // Navbar Styling Configuration
 export const navbarStyles = {
   // Main container
-  container: "w-full border-b border-[#E5E5E5] bg-white sticky top-0 z-50",
+  container: "w-full border-b border-[#E5E5E5] bg-white z-50",
   wrapper: "w-full px-4 sm:px-6 md:px-12 lg:px-24 py-4 flex items-center justify-between",
   
   // Brand/Logo

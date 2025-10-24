@@ -48,7 +48,7 @@ export const blogPageStyles = {
     subtitle: "text-[#525252] text-sm sm:text-base leading-relaxed font-sans max-w-2xl",
   },
   filter: {
-    container: "w-full py-6 sm:py-8 px-4 sm:px-6 md:px-12 lg:px-24",
+    container: "w-full py-6 sm:py-8 px-4 sm:px-6 md:px-12 lg:px-24 lg:sticky lg:top-0 lg:z-40 lg:bg-white",
     mobileWrapper: "sm:hidden w-full flex items-center justify-center gap-2",
     mobileSelect: "flex-1 max-w-[280px] border-[#E5E5E5] rounded-md focus:ring-[#2D2926] text-[#2D2926] font-medium",
     filterList: "flex flex-wrap items-center gap-6 sm:gap-8 border-b border-[#E5E5E5] w-fit",
