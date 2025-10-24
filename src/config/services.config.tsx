@@ -119,7 +119,7 @@ export const servicesStyles = {
   servicesGrid: {
     container: "self-stretch flex justify-center items-start py-8 sm:py-12 md:py-16",
     gridWrapper:
-      "w-full max-w-[1400px] px-4 sm:px-6 md:px-12 lg:px-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-5 md:gap-6 [&>*:nth-child(n+5):nth-child(-n+7)]:xl:col-start-auto xl:[&>*:nth-child(5)]:col-start-2",
+      "w-full px-4 sm:px-6 md:px-12 lg:px-16 xl:px-24 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-4 sm:gap-5 md:gap-6 auto-cols-fr",
   },
 
   serviceCard: {

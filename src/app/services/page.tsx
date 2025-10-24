@@ -22,7 +22,7 @@ export default function ServicesPage() {
           title={service.title}
           subtitle={service.subtitle}
           description={service.description}
-          features={service.features}
+          steps={service.steps}
           styles={servicesPageStyles.serviceSection}
         />
       ))}

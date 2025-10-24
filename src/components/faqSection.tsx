@@ -12,7 +12,7 @@ export default function FAQSection() {
     <section className={faqStyles.container} aria-labelledby="faq-heading">
       <div className="flex-1 w-full px-4 sm:px-6 md:px-12 lg:px-24 py-12 sm:py-16 md:py-20 flex flex-col lg:flex-row justify-start items-start gap-12 lg:gap-32">
         {/* Left side - Header */}
-        <div className="w-full lg:w-[700px] lg:shrink-0 flex flex-col gap-4">
+        <div className="w-full lg:w-[450px] lg:shrink-0 flex flex-col gap-4">
           <h2 className="text-[#2D2926] text-3xl sm:text-4xl md:text-5xl font-semibold leading-tight tracking-tight font-sans">
             {faqConfig.header.title}
           </h2>

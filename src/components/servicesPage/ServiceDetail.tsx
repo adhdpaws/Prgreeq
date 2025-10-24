@@ -1,11 +1,16 @@
 import { Button } from "@/components/ui/button"
 
+interface ServiceStep {
+  title: string
+  description: string
+}
+
 interface ServiceDetailProps {
   id: string
   title: string
   subtitle: string
   description: string
-  features: string[]
+  steps: ServiceStep[]
   styles: {
     container: string
     content: string
@@ -18,7 +23,9 @@ interface ServiceDetailProps {
     rightFeatures: string
     featuresTitle: string
     featuresList: string
-    featureText: string
+    featureItem: string
+    featureTitle: string
+    featureDescription: string
   }
 }
 
@@ -27,7 +34,7 @@ export function ServiceDetail({
   title,
   subtitle,
   description,
-  features,
+  steps,
   styles,
 }: ServiceDetailProps) {
   return (
@@ -49,17 +56,22 @@ export function ServiceDetail({
           </Button>
         </div>
 
-        {/* Right Side - Features */}
+        {/* Right Side - Steps with Descriptions */}
         <div className={styles.rightFeatures}>
           <h3 className={styles.featuresTitle}>
             {subtitle}
           </h3>
           
           <div className={styles.featuresList}>
-            {features.map((feature, index) => (
-              <p key={index} className={styles.featureText}>
-                {feature}
-              </p>
+            {steps.map((step, index) => (
+              <div key={index} className={styles.featureItem}>
+                <h4 className={styles.featureTitle}>
+                  {step.title}
+                </h4>
+                <p className={styles.featureDescription}>
+                  {step.description}
+                </p>
+              </div>
             ))}
           </div>
         </div>
