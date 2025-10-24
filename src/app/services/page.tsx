@@ -1,13 +1,13 @@
 import { servicesPageConfig, servicesPageStyles } from "@/config/servicesPage.config"
-import { ServicesHero } from "@/components/servicesPage/ServicesHero"
+import { PageHero } from "@/components/PageHero"
 import { ServiceNav } from "@/components/servicesPage/ServiceNav"
 import { ServiceDetail } from "@/components/servicesPage/ServiceDetail"
 
 export default function ServicesPage() {
   return (
     <main className="flex flex-col">
-      <ServicesHero
-        badge={servicesPageConfig.hero.badge}
+      <PageHero
+        badge={servicesPageConfig.hero.badge.text}
         headline={servicesPageConfig.hero.headline}
         subtitle={servicesPageConfig.hero.subtitle}
         styles={servicesPageStyles.hero}

@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button"
+import { StepsList } from "@/components/common/StepsList"
 
 interface ServiceStep {
   title: string
@@ -62,18 +63,15 @@ export function ServiceDetail({
             {subtitle}
           </h3>
           
-          <div className={styles.featuresList}>
-            {steps.map((step, index) => (
-              <div key={index} className={styles.featureItem}>
-                <h4 className={styles.featureTitle}>
-                  {step.title}
-                </h4>
-                <p className={styles.featureDescription}>
-                  {step.description}
-                </p>
-              </div>
-            ))}
-          </div>
+          <StepsList
+            steps={steps}
+            styles={{
+              container: styles.featuresList,
+              item: styles.featureItem,
+              title: styles.featureTitle,
+              description: styles.featureDescription,
+            }}
+          />
         </div>
       </div>
     </section>
