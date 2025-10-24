@@ -74,12 +74,12 @@ export const aboutPageStyles = {
   values: {
     container: "w-full border-b border-border flex justify-start items-start py-4 sm:py-20 md:py-24 lg:py-28",
     content: "w-full px-4 sm:px-6 md:px-12 lg:px-24 flex lg:flex-row flex-col gap-4 sm:gap-16 md:gap-20 items-start",
-    badge: "text-[#666666] text-xs sm:text-sm font-semibold leading-tight font-sans tracking-wider uppercase w-full lg:w-[240px] flex-shrink-0 pt-4",
+    badge: "text-[#525252] text-xs sm:text-sm font-semibold leading-tight font-sans tracking-wider uppercase w-full lg:w-[240px] flex-shrink-0 pt-4",
     valuesList: {
       container: "flex-1 flex flex-col",
       item: "flex flex-col sm:flex-row gap-3 sm:gap-6 md:gap-8 lg:gap-10 py-6 border-b border-[#E5E5E5] last:border-b-0",
       title: "text-[#2D2926] text-2xl sm:text-3xl md:text-4xl font-semibold leading-tight tracking-tight font-sans w-full sm:w-[280px] md:w-[320px] lg:w-[360px] flex-shrink-0",
-      description: "text-[#666666] text-sm sm:text-base leading-relaxed font-sans flex-1 pt-1",
+      description: "text-[#525252] text-sm sm:text-base leading-relaxed font-sans flex-1 pt-1",
     },
   },
   stats: {
@@ -89,14 +89,14 @@ export const aboutPageStyles = {
     fullWidthCard: "p-8 sm:p-10 md:p-12 flex flex-col gap-4 sm:gap-6 sm:col-span-2",
     number: "text-[#2D2926] text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-normal leading-tight tracking-tight font-sans",
     label: "text-[#2D2926] text-base sm:text-lg md:text-xl lg:text-2xl font-semibold leading-tight font-sans tracking-wider uppercase",
-    description: "text-[#666666] text-sm sm:text-base leading-relaxed font-sans",
+    description: "text-[#525252] text-sm sm:text-base leading-relaxed font-sans",
   },
   contact: {
     container: "w-full bg-[#F5F5F3] py-16 sm:py-20 md:py-24 lg:py-28 xl:py-32",
     content: "w-full px-4 sm:px-6 md:px-12 lg:px-24 flex flex-col items-center justify-center gap-8 sm:gap-10 md:gap-12",
     badge: "inline-flex px-2 py-0.5 bg-transparent border border-[#2D2926] text-[#2D2926] text-[10px] font-semibold leading-tight font-sans tracking-wider uppercase rounded-none",
     headline: "text-[#2D2926] text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-normal leading-tight tracking-tight font-sans text-center max-w-5xl",
-    subtitle: "text-[#666666] text-base sm:text-lg md:text-xl font-normal leading-relaxed font-sans text-center max-w-2xl",
+    subtitle: "text-[#525252] text-base sm:text-lg md:text-xl font-normal leading-relaxed font-sans text-center max-w-2xl",
     button: "bg-[#2D2926] text-white px-8 py-3.5 sm:px-10 sm:py-4 text-sm sm:text-base font-medium hover:bg-[#1D1916] transition-colors duration-200 rounded-full",
   },
 }

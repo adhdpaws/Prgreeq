@@ -25,7 +25,7 @@ export const heroStyles = {
   
   contentSection: {
     wrapper: "flex-1 flex flex-col",
-    content: "flex-1 px-6 sm:px-12 md:px-16 lg:px-24 pt-12 sm:pt-16 md:pt-20 lg:pt-24 pb-0 flex flex-col justify-center items-center sm:items-start gap-6 sm:gap-8",
+    content: "flex-1 px-6 sm:px-12 md:px-16 lg:px-24 pb-0 flex flex-col justify-center items-center sm:items-start gap-6 sm:gap-8",
     badgeWrapper: "flex justify-center sm:justify-start w-full",
     badge: "inline-flex px-2 py-0.5 bg-transparent border border-[#2D2926] text-[#2D2926] text-[10px] font-semibold leading-tight font-sans tracking-wider uppercase rounded-none",
     headline: "text-[#2D2926] text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-semibold leading-tight tracking-tight font-sans max-w-[900px] text-center sm:text-left",

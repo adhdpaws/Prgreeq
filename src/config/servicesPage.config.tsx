@@ -282,8 +282,8 @@ export const servicesPageStyles = {
     leftCard: "w-full lg:w-[380px] xl:w-[420px] bg-[#F5F5F3] p-8 sm:p-10 md:p-12 flex flex-col justify-between gap-6 sm:gap-8 flex-shrink-0 lg:sticky lg:top-32 lg:self-start",
     cardHeader: "flex flex-col gap-3",
     cardTitle: "text-[#2D2926] text-3xl sm:text-4xl md:text-5xl font-normal leading-tight tracking-tight font-sans",
-    cardSubtitle: "text-[#666666] text-base sm:text-lg font-normal leading-relaxed font-sans pb-4",
-    cardDescription: "text-[#666666] text-sm sm:text-base leading-relaxed font-sans",
+    cardSubtitle: "text-[#525252] text-base sm:text-lg font-normal leading-relaxed font-sans pb-4",
+    cardDescription: "text-[#525252] text-sm sm:text-base leading-relaxed font-sans",
     cardButton: "bg-[#2D2926] text-white px-7 py-3 text-sm sm:text-base font-medium hover:bg-[#1D1916] transition-colors duration-200 rounded-full w-fit",
     
     // Right Features
@@ -292,6 +292,6 @@ export const servicesPageStyles = {
     featuresList: "flex flex-col",
     featureItem: "flex flex-col sm:flex-row gap-3 sm:gap-6 md:gap-8 lg:gap-10 py-6 border-b border-[#E5E5E5] last:border-b-0",
     featureTitle: "text-[#2D2926] text-sm sm:text-base pt-1 font-semibold leading-tight font-sans w-full sm:w-[200px] md:w-[220px] lg:w-[240px] flex-shrink-0 uppercase",
-    featureDescription: "text-[#666666] text-sm sm:text-base leading-relaxed font-sans flex-1",
+    featureDescription: "text-[#525252] text-sm sm:text-base leading-relaxed font-sans flex-1",
   },
 }

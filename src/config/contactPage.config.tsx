@@ -81,28 +81,28 @@ export const contactPageStyles = {
     leftSection: "flex-1 flex flex-col gap-8 sm:gap-10",
     badge: "inline-flex px-2 py-0.5 bg-transparent border border-[#2D2926] text-[#2D2926] text-[10px] font-semibold leading-tight font-sans tracking-wider uppercase rounded-none w-fit",
     headline: "text-[#2D2926] text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold leading-tight tracking-tight font-sans",
-    description: "text-[#666666] text-sm sm:text-base leading-relaxed font-sans max-w-xl",
+    description: "text-[#525252] text-sm sm:text-base leading-relaxed font-sans max-w-xl",
     
     // Contact Info Grid
     contactGrid: "grid grid-cols-1 sm:grid-cols-2 gap-8 sm:gap-10 mt-4",
     contactItem: "flex flex-col gap-2",
     contactTitle: "text-[#2D2926] text-sm sm:text-base font-semibold leading-tight font-sans",
-    contactText: "text-[#666666] text-sm sm:text-base leading-relaxed font-sans",
+    contactText: "text-[#525252] text-sm sm:text-base leading-relaxed font-sans",
     
     // Social Links
     socialLinks: "flex gap-4 mt-2",
-    socialIcon: "text-[#2D2926] hover:text-[#666666] transition-colors duration-200",
+    socialIcon: "text-[#2D2926] hover:text-[#525252] transition-colors duration-200",
     
     // Right Section - Form Card
     rightSection: "flex-1 lg:max-w-[800px]",
     formCard: "bg-[#F5F5F3] p-8 sm:p-10 md:p-12 flex flex-col gap-6",
     formTitle: "text-[#2D2926] text-2xl sm:text-3xl font-semibold leading-tight tracking-tight font-sans",
-    formSubtitle: "text-[#666666] text-sm sm:text-base leading-relaxed font-sans",
+    formSubtitle: "text-[#525252] text-sm sm:text-base leading-relaxed font-sans",
     
     // Form Fields
     formFields: "flex flex-col gap-4 sm:gap-5",
     inputGroup: "flex flex-col gap-2",
-    label: "text-[#666666] text-sm font-medium font-sans",
+    label: "text-[#525252] text-sm font-medium font-sans",
     input: "w-full px-4 py-3 bg-white border border-[#E5E5E5] text-[#2D2926] text-sm font-sans placeholder:text-[#999999] focus:outline-none focus:ring-2 focus:ring-[#2D2926] focus:border-transparent rounded-none",
     textarea: "w-full px-4 py-3 bg-white border border-[#E5E5E5] text-[#2D2926] text-sm font-sans placeholder:text-[#999999] focus:outline-none focus:ring-2 focus:ring-[#2D2926] focus:border-transparent rounded-none min-h-[120px] resize-vertical",
     button: "bg-[#2D2926] text-white px-8 py-3.5 text-sm sm:text-base font-medium hover:bg-[#1D1916] transition-colors duration-200 w-fit rounded-none",
@@ -120,8 +120,8 @@ export const contactPageStyles = {
     item: "flex flex-col gap-3",
     title: "text-[#2D2926] text-base font-semibold leading-tight font-sans",
     textGroup: "flex flex-col gap-1",
-    text: "text-[#666666] text-sm leading-relaxed font-sans",
+    text: "text-[#525252] text-sm leading-relaxed font-sans",
     socialLinks: "flex gap-4 mt-1",
-    socialIcon: "text-[#2D2926] hover:text-[#666666] transition-colors duration-200",
+    socialIcon: "text-[#2D2926] hover:text-[#525252] transition-colors duration-200",
   },
 }
