@@ -288,8 +288,8 @@ export const servicesPageStyles = {
     rightFeatures: "flex-1 flex flex-col pt-4",
     featuresTitle: "text-black text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-normal leading-tight tracking-tight font-sans mb-10",
     featuresList: "flex flex-col",
-    featureItem: "flex flex-row gap-6 sm:gap-8 md:gap-10 py-6 border-b border-[#E5E5E5] last:border-b-0",
-    featureTitle: "text-[#2D2926] text-sm sm:text-base pt-1 font-semibold leading-tight font-sans w-[200px] sm:w-[220px] md:w-[240px] flex-shrink-0 uppercase",
+    featureItem: "flex flex-col sm:flex-row gap-3 sm:gap-6 md:gap-8 lg:gap-10 py-6 border-b border-[#E5E5E5] last:border-b-0",
+    featureTitle: "text-[#2D2926] text-sm sm:text-base pt-1 font-semibold leading-tight font-sans w-full sm:w-[200px] md:w-[220px] lg:w-[240px] flex-shrink-0 uppercase",
     featureDescription: "text-[#666666] text-sm sm:text-base leading-relaxed font-sans flex-1",
   },
 }
