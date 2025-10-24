@@ -266,8 +266,10 @@ export const servicesPageStyles = {
   },
 
   serviceNav: {
-    container: "w-full border-b border-border flex justify-start items-center py-3 sm:py-4 md:py-5 lg:py-6 sticky top-0 bg-white z-10 overflow-x-auto",
+    container: "w-full border-b border-border flex justify-start items-center py-3 sm:py-4 md:py-5 lg:py-6 sticky top-0 bg-white z-10",
     wrapper: "w-full px-4 sm:px-6 md:px-12 lg:px-24 flex flex-nowrap sm:flex-wrap justify-start items-center gap-2 sm:gap-3 min-w-max sm:min-w-0",
+    mobileWrapper: "sm:hidden w-full px-4 flex items-center justify-center gap-2",
+    mobileSelect: "flex-1 max-w-[280px] border-[#E5E5E5] rounded-md focus:ring-[#2D2926] text-[#2D2926] font-medium text-sm",
     button: "px-3 py-1.5 sm:px-4 sm:py-2 md:px-5 md:py-2.5 lg:px-6 text-[#2D2926] text-xs sm:text-sm md:text-base font-medium border border-[#2D2926] hover:bg-[#2D2926] hover:text-white transition-all duration-200 rounded-none whitespace-nowrap flex-shrink-0",
     activeButton: "px-3 py-1.5 sm:px-4 sm:py-2 md:px-5 md:py-2.5 lg:px-6 bg-[#2D2926] text-white text-xs sm:text-sm md:text-base font-medium border border-[#2D2926] transition-all duration-200 rounded-none whitespace-nowrap flex-shrink-0",
   },
