@@ -1,6 +1,13 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select"
 import { useState, useEffect } from "react"
 
 interface ServiceNavProps {
@@ -13,6 +20,8 @@ interface ServiceNavProps {
     wrapper: string
     button: string
     activeButton: string
+    mobileWrapper?: string
+    mobileSelect?: string
   }
 }
 
@@ -57,9 +66,40 @@ export function ServiceNav({ services, styles }: ServiceNavProps) {
     }
   }
 
+  const activeService = services.find(s => s.id === activeSection)
+
+  const handleMobileChange = (value: string) => {
+    scrollToSection(value)
+  }
+
   return (
     <nav className={styles.container}>
-      <div className={styles.wrapper}>
+      {/* Mobile dropdown view */}
+      <div className={styles.mobileWrapper || "sm:hidden w-full px-4 flex items-center justify-center gap-2"}>
+        <span className="text-[#525252] text-sm font-medium whitespace-nowrap">Prgreeq ›</span>
+        <Select
+          value={activeSection || services[0]?.id}
+          onValueChange={handleMobileChange}
+        >
+          <SelectTrigger className={styles.mobileSelect || "flex-1 max-w-[280px] border-[#E5E5E5] rounded-md focus:ring-[#2D2926] text-[#2D2926] font-medium"} aria-label="Select service category">
+            <SelectValue placeholder={services[0]?.label} />
+          </SelectTrigger>
+          <SelectContent className="rounded-md border-[#E5E5E5]">
+            {services.map((service) => (
+              <SelectItem 
+                key={service.id} 
+                value={service.id}
+                className="rounded-sm focus:bg-[#F5F5F3] cursor-pointer"
+              >
+                {service.label}
+              </SelectItem>
+            ))}
+          </SelectContent>
+        </Select>
+      </div>
+
+      {/* Desktop buttons view */}
+      <div className={`${styles.wrapper} hidden sm:flex`}>
         {services.map((service) => (
           <Button
             key={service.id}

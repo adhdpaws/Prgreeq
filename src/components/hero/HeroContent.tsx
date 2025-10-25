@@ -20,6 +20,7 @@ interface HeroContentProps {
   }
   styles: {
     content: string
+    badgeWrapper: string
     badge: string
     headline: string
     subtitle: string
@@ -33,9 +34,11 @@ export function HeroContent({ badge, headline, subtitle, cta, styles }: HeroCont
   return (
     <div className={styles.content}>
       <div className="flex flex-col gap-4 sm:gap-5 md:gap-6">
-        <Badge variant="outline" className={styles.badge}>
-          {badge.text}
-        </Badge>
+        <div className={styles.badgeWrapper}>
+          <Badge variant="outline" className={styles.badge}>
+            {badge.text}
+          </Badge>
+        </div>
         <h1 className={styles.headline}>{headline}</h1>
         <p className={styles.subtitle}>{subtitle}</p>
       </div>

@@ -1,4 +1,6 @@
-interface PageHeroProps {
+import { Badge } from "@/components/ui/badge"
+
+export interface PageHeroProps {
   badge: string
   headline: string
   subtitle: string
@@ -13,10 +15,12 @@ interface PageHeroProps {
 
 export function PageHero({ badge, headline, subtitle, styles }: PageHeroProps) {
   return (
-    <section className={styles.container}>
+    <section className={styles.container} aria-labelledby="page-hero-heading">
       <div className={styles.content}>
-        <span className={styles.badge}>{badge}</span>
-        <h1 className={styles.headline}>{headline}</h1>
+        <Badge className={styles.badge}>{badge}</Badge>
+        <h1 id="page-hero-heading" className={styles.headline}>
+          {headline}
+        </h1>
         <p className={styles.subtitle}>{subtitle}</p>
       </div>
     </section>

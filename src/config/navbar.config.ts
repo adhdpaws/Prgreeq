@@ -12,12 +12,12 @@ export const navbarConfig = {
   navigation: [
     {
       label: "Solutions",
-      href: "#",
+      href: "/services",
       dropdownItems: [
-        { label: "Academia", href: "#academia" },
-        { label: "Publishers", href: "#publishers" },
-        { label: "Corporates", href: "#corporates" },
-        { label: "EdTech Companies", href: "#edtech" },
+        { label: "Academia", href: "/services" },
+        { label: "Publishers", href: "/services" },
+        { label: "Corporates", href: "/services" },
+        { label: "EdTech Companies", href: "/services" },
       ],
     },
     {
@@ -38,8 +38,8 @@ export const navbarConfig = {
       href: "/about",
       dropdownItems: [
         { label: "About Us", href: "/about" },
-        { label: "Our Approach", href: "/about#approach" },
-        { label: "Impact & Case Studies", href: "/about#impact" },
+        { label: "Our Approach", href: "/#services" },
+        { label: "Impact", href: "/blog" },
         { label: "Careers", href: "/careers" },
         { label: "Contact Us", href: "/contact" },
       ],
@@ -49,16 +49,16 @@ export const navbarConfig = {
       href: "/blog",
       dropdownItems: [
         { label: "Blog", href: "/blog" },
-        { label: "Events", href: "/blog#events" },
-        { label: "Help Center", href: "/blog#help" },
-        { label: "FAQs", href: "/blog#faqs" },
+        { label: "Events", href: "/blog" },
+        { label: "Help Center", href: "/contact" },
+        { label: "FAQs", href: "/#faq" },
       ],
     },
   ],
   
   // CTA button
   cta: {
-    label: "Get Started",
+    label: "Contact Us",
     href: "/contact",
   },
 }
