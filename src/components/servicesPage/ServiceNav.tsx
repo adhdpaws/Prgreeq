@@ -81,7 +81,7 @@ export function ServiceNav({ services, styles }: ServiceNavProps) {
           value={activeSection || services[0]?.id}
           onValueChange={handleMobileChange}
         >
-          <SelectTrigger className={styles.mobileSelect || "flex-1 max-w-[280px] border-[#E5E5E5] rounded-md focus:ring-[#2D2926] text-[#2D2926] font-medium"}>
+          <SelectTrigger className={styles.mobileSelect || "flex-1 max-w-[280px] border-[#E5E5E5] rounded-md focus:ring-[#2D2926] text-[#2D2926] font-medium"} aria-label="Select service category">
             <SelectValue placeholder={services[0]?.label} />
           </SelectTrigger>
           <SelectContent className="rounded-md border-[#E5E5E5]">

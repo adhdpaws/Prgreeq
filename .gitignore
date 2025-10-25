@@ -45,6 +45,9 @@ bun-debug.log*
 *.tsbuildinfo
 next-env.d.ts
 
+# velite
+.velite
+
 # IDE
 .vscode/*
 !.vscode/settings.json

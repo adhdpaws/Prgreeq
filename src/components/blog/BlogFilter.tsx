@@ -49,7 +49,7 @@ export function BlogFilter({
           value={activeCategory}
           onValueChange={onCategoryChange}
         >
-          <SelectTrigger className={styles.mobileSelect}>
+          <SelectTrigger className={styles.mobileSelect} aria-label="Select blog category">
             <SelectValue placeholder="All" />
           </SelectTrigger>
           <SelectContent className="rounded-md border-[#E5E5E5]">

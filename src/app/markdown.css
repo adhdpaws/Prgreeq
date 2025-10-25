@@ -1,0 +1,121 @@
+/* Markdown Content Styles */
+
+/* Code block syntax highlighting */
+.prose pre {
+  @apply rounded-lg border border-[#E5E5E5] bg-[#1e1e1e] p-4 overflow-x-auto;
+}
+
+.prose code {
+  @apply text-sm font-mono;
+}
+
+.prose :not(pre) > code {
+  @apply bg-[#F5F5F5] text-[#2D2926] px-1.5 py-0.5 rounded text-sm border border-[#E5E5E5];
+}
+
+/* Heading anchor links */
+.prose .anchor {
+  @apply no-underline hover:underline;
+}
+
+/* Tables (from remark-gfm) */
+.prose table {
+  @apply w-full border-collapse;
+}
+
+.prose table th,
+.prose table td {
+  @apply border border-[#E5E5E5] px-4 py-2 text-left;
+}
+
+.prose table th {
+  @apply bg-[#F5F5F5] font-semibold;
+}
+
+.prose table tr:hover {
+  @apply bg-[#FAFAFA];
+}
+
+/* Task lists (from remark-gfm) */
+.prose input[type="checkbox"] {
+  @apply mr-2;
+}
+
+/* Strikethrough (from remark-gfm) */
+.prose del {
+  @apply line-through opacity-70;
+}
+
+/* Base prose styles for markdown content */
+.prose {
+  @apply max-w-none text-[#2D2926];
+}
+
+.prose h1 {
+  @apply text-4xl font-bold mt-8 mb-4 text-[#2D2926];
+}
+
+.prose h2 {
+  @apply text-3xl font-semibold mt-6 mb-3 text-[#2D2926];
+}
+
+.prose h3 {
+  @apply text-2xl font-semibold mt-5 mb-2 text-[#2D2926];
+}
+
+.prose h4 {
+  @apply text-xl font-semibold mt-4 mb-2 text-[#2D2926];
+}
+
+.prose h5 {
+  @apply text-lg font-semibold mt-3 mb-2 text-[#2D2926];
+}
+
+.prose h6 {
+  @apply text-base font-semibold mt-3 mb-2 text-[#2D2926];
+}
+
+.prose p {
+  @apply mb-4 leading-relaxed text-[#525252];
+}
+
+.prose a {
+  @apply text-[#2D2926] underline hover:text-[#525252] transition-colors;
+}
+
+.prose ul,
+.prose ol {
+  @apply mb-4 pl-6;
+}
+
+.prose ul {
+  @apply list-disc;
+}
+
+.prose ol {
+  @apply list-decimal;
+}
+
+.prose li {
+  @apply mb-2 text-[#525252];
+}
+
+.prose blockquote {
+  @apply border-l-4 border-[#E5E5E5] pl-4 italic my-4 text-[#525252];
+}
+
+.prose hr {
+  @apply my-8 border-t border-[#E5E5E5];
+}
+
+.prose img {
+  @apply rounded-lg my-6;
+}
+
+.prose strong {
+  @apply font-semibold text-[#2D2926];
+}
+
+.prose em {
+  @apply italic;
+}

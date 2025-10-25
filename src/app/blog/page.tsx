@@ -1,23 +1,39 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useMemo } from "react"
 import { PageHero } from "@/components/PageHero"
 import { BlogFilter } from "@/components/blog/BlogFilter"
 import { BlogGrid } from "@/components/blog/BlogGrid"
 import { blogPageConfig, blogPageStyles } from "@/config/blogPage.config"
+import { posts } from "#site/content"
 
 export default function BlogPage() {
   const [activeCategory, setActiveCategory] = useState("all")
 
+  // Transform Velite posts to match BlogGrid interface
+  const transformedPosts = useMemo(() => {
+    return posts
+      .filter((post) => post.published)
+      .map((post) => ({
+        image: post.image || "/blog/thumbnail.png",
+        title: post.title,
+        description: post.description || "",
+        category: post.category || "Uncategorized",
+        slug: post.slug,
+      }))
+  }, [])
+
   // Filter posts based on active category
-  const filteredPosts =
-    activeCategory === "all"
-      ? blogPageConfig.posts
-      : blogPageConfig.posts.filter((post) =>
-          post.category
-            .toLowerCase()
-            .includes(activeCategory.toLowerCase().replace(/-/g, " "))
-        )
+  const filteredPosts = useMemo(() => {
+    if (activeCategory === "all") {
+      return transformedPosts
+    }
+    return transformedPosts.filter((post) =>
+      post.category
+        .toLowerCase()
+        .includes(activeCategory.toLowerCase().replace(/-/g, " "))
+    )
+  }, [activeCategory, transformedPosts])
 
   return (
     <main className="flex flex-col">
