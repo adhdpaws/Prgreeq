@@ -10,7 +10,6 @@ export default function CredibilitySection() {
         badge={<Badge icon={credibilityConfig.badge.icon} text={credibilityConfig.badge.text} />}
         title={credibilityConfig.header.title}
         subtitle={credibilityConfig.header.subtitle}
-        cta={credibilityConfig.header.cta}
       />
 
       <LogoGrid
