@@ -55,7 +55,7 @@ export const footerConfig = {
         { label: "About Us", href: "/about" },
         { label: "Our Approach", href: "/#services" },
         { label: "Impact", href: "/blog" },
-        { label: "Careers", href: "/contact" },
+        { label: "Careers", href: "/careers" },
         { label: "Contact", href: "/contact" },
       ],
     },
