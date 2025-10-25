@@ -14,10 +14,12 @@ export const navbarConfig = {
       label: "Solutions",
       href: "/services",
       dropdownItems: [
-        { label: "Academia", href: "/services" },
-        { label: "Publishers", href: "/services" },
-        { label: "Corporates", href: "/services" },
-        { label: "EdTech Companies", href: "/services" },
+        { label: "Academia", href: "/solutions/academia" },
+        { label: "Publishers", href: "/solutions/publishers" },
+        { label: "Corporates", href: "/solutions/corporates" },
+        { label: "EdTech Companies", href: "/solutions/edtech" },
+        { label: "eLearning Development", href: "/solutions/elearning" },
+        { label: "Accessibility Services", href: "/solutions/accessibility" },
       ],
     },
     {
