@@ -28,7 +28,7 @@ export const servicesConfig = {
         "We create engaging and interactive eLearning solutions that enhance learning outcomes and drive educational success.",
       link: {
         text: "About eLearning",
-        url: "/services/elearning",
+        url: "/services#elearning",
       },
     },
     {
@@ -38,7 +38,7 @@ export const servicesConfig = {
         "We ensure your educational content is accessible to all learners by implementing WCAG standards and inclusive design practices.",
       link: {
         text: "About Accessibility",
-        url: "/services/accessibility",
+        url: "/services#accessibility",
       },
     },
     {
@@ -48,7 +48,7 @@ export const servicesConfig = {
         "We adapt your educational content for global audiences with professional translation and cultural localization services.",
       link: {
         text: "About Localisation",
-        url: "/services/localisation",
+        url: "/services#localisation",
       },
     },
     {
@@ -58,7 +58,7 @@ export const servicesConfig = {
         "We produce high-quality multimedia content including videos, animations, and interactive media for engaging learning experiences.",
       link: {
         text: "About Multimedia",
-        url: "/services/multimedia",
+        url: "/services#multimedia",
       },
     },
     {
@@ -68,7 +68,7 @@ export const servicesConfig = {
         "We develop custom educational software solutions and learning management systems tailored to your specific needs.",
       link: {
         text: "About Software",
-        url: "/services/software",
+        url: "/services#software",
       },
     },
     {
@@ -78,7 +78,7 @@ export const servicesConfig = {
         "We provide expert mentoring programs to guide educators and learners in achieving their professional development goals.",
       link: {
         text: "About Mentoring",
-        url: "/services/mentoring",
+        url: "/services#mentoring",
       },
     },
     {
@@ -88,7 +88,7 @@ export const servicesConfig = {
         "We offer comprehensive skill development programs designed to empower individuals with in-demand competencies.",
       link: {
         text: "About Skilling",
-        url: "/services/skilling",
+        url: "/services#skilling",
       },
     },
   ],

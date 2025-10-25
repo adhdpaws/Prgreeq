@@ -10,18 +10,18 @@ export const heroConfig = {
   cta: {
     primary: {
       text: "Our Services",
-      url: "#services",
+      url: "/services",
     },
     secondary: {
       text: "About Us",
-      url: "#about",
+      url: "/about",
     },
   },
 }
 
 // Styling Configuration - Central place to modify styling
 export const heroStyles = {
-  container: "w-full border-b border-border flex flex-col justify-center items-stretch min-h-[600px] sm:min-h-[700px] md:min-h-[800px]",
+  container: "w-full border-b border-border flex flex-col justify-center items-stretch min-h-[600px]",
   
   contentSection: {
     wrapper: "flex-1 flex flex-col",

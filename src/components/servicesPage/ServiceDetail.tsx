@@ -53,7 +53,7 @@ export function ServiceDetail({
           </div>
           
           <Button className={styles.cardButton} asChild>
-            <a href="#contact">Let's Talk</a>
+            <a href="/contact">Let's Talk</a>
           </Button>
         </div>
 
