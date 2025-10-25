@@ -3,7 +3,7 @@ import { BookOpen, Calendar, HelpCircle, MessageSquare, Twitter, Linkedin, Githu
 // Footer Configuration - Central place to modify footer content
 export const footerConfig = {
   brand: {
-    name: "Geeq",
+    name: "Prgeeq",
     tagline: "Transforming Education Through Innovation",
   },
   
@@ -43,8 +43,8 @@ export const footerConfig = {
     {
       title: "Products",
       links: [
-        { label: "GeeqLearn LMS", href: "/services" },
-        { label: "MobiGeeq App", href: "/services" },
+        { label: "PrgeeqLearn LMS", href: "/services" },
+        { label: "MobiPrgeeq App", href: "/services" },
         { label: "Multimedia Content", href: "/services" },
         { label: "Software Solutions", href: "/services" },
       ],

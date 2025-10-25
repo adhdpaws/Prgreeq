@@ -7,14 +7,14 @@ export const faqConfig = {
 
   faqs: [
     {
-      question: "What services does Geeq provide?",
+      question: "What services does Prgeeq provide?",
       answer:
-        "Geeq provides comprehensive educational technology solutions including eLearning development, accessibility services, localization, multimedia content creation, software solutions, and specialized programs for various audiences including academia, publishers, corporates, and EdTech companies.",
+        "Prgeeq provides comprehensive educational technology solutions including eLearning development, accessibility services, localization, multimedia content creation, software solutions, and specialized programs for various audiences including academia, publishers, corporates, and EdTech companies.",
     },
     {
-      question: "How does GeeqLearn LMS work?",
+      question: "How does PrgeeqLearn LMS work?",
       answer:
-        "GeeqLearn LMS is our comprehensive learning management system that enables organizations to create, deliver, and track educational content. It features intuitive course creation tools, analytics dashboards, mobile accessibility, and seamless integration with existing systems.",
+        "PrgeeqLearn LMS is our comprehensive learning management system that enables organizations to create, deliver, and track educational content. It features intuitive course creation tools, analytics dashboards, mobile accessibility, and seamless integration with existing systems.",
     },
     {
       question: "Can you help make our existing content accessible?",
@@ -32,7 +32,7 @@ export const faqConfig = {
         "Absolutely. Our localization services include translation, cultural adaptation, and technical formatting for multiple languages. We ensure your educational content resonates with learners across different regions and cultures.",
     },
     {
-      question: "How do I get started with Geeq?",
+      question: "How do I get started with Prgeeq?",
       answer:
         "Getting started is easy! Book a demo to discuss your requirements, and our team will create a customized solution for your needs. We provide onboarding support and training to ensure a smooth implementation.",
     },

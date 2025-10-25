@@ -4,7 +4,7 @@
 
 export const navbarConfig = {
   brand: {
-    name: "Geeq",
+    name: "Prgeeq",
     href: "/",
   },
   

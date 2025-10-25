@@ -76,7 +76,7 @@ export function ServiceNav({ services, styles }: ServiceNavProps) {
     <nav className={styles.container}>
       {/* Mobile dropdown view */}
       <div className={styles.mobileWrapper || "sm:hidden w-full px-4 flex items-center justify-center gap-2"}>
-        <span className="text-[#525252] text-sm font-medium whitespace-nowrap">Prgreeq ›</span>
+        <span className="text-[#525252] text-sm font-medium whitespace-nowrap">Prgeeq ›</span>
         <Select
           value={activeSection || services[0]?.id}
           onValueChange={handleMobileChange}

@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Geeq - Transforming Education Through Innovation",
+  title: "Prgeeq - Transforming Education Through Innovation",
   description: "Educational technology solutions for academia, publishers, corporates, and more",
 };
 
