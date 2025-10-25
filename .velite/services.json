@@ -1,0 +1,13 @@
+[
+  {
+    "title": "eLearning Development Services",
+    "slug": "elearning-development",
+    "description": "Comprehensive eLearning solutions tailored to your educational needs.",
+    "subtitle": "Transform your educational content into engaging digital experiences",
+    "category": "Education",
+    "image": "/services/elearning.png",
+    "published": true,
+    "body": "<h1>eLearning Development Services</h1>\n<p>We specialize in creating engaging and effective eLearning solutions that transform traditional educational content into interactive digital experiences.</p>\n<h2>Our Approach</h2>\n<p>Our team combines pedagogical expertise with cutting-edge technology to deliver eLearning solutions that truly engage learners and drive results.</p>\n<h3>Key Services</h3>\n<ul>\n<li><strong>Course Development</strong>: Custom eLearning course creation</li>\n<li><strong>Content Conversion</strong>: Transform existing materials into digital format</li>\n<li><strong>Interactive Elements</strong>: Gamification and interactive assessments</li>\n<li><strong>Mobile Learning</strong>: Responsive design for all devices</li>\n</ul>\n<h2>Why Choose Us</h2>\n<p>With years of experience in educational technology, we understand the unique challenges of digital learning and create solutions that work.</p>\n<h3>Benefits</h3>\n<ol>\n<li>Increased learner engagement</li>\n<li>Better knowledge retention</li>\n<li>Flexible learning schedules</li>\n<li>Measurable outcomes</li>\n</ol>\n<p>Contact us to learn more about how we can help transform your educational content.</p>",
+    "permalink": "/services/elearning-development"
+  }
+]

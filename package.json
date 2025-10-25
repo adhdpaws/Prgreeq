@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "velite && next dev -p 9222",
-    "build": "velite && next build",
+    "dev": "next dev -p 9222",
+    "build": "next build",
     "start": "next start",
     "lint": "biome check",
     "format": "biome format --write"
